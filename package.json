@@ -1,0 +1,15 @@
+{
+  "name": "formup",
+  "version": "0.1.0",
+  "main": "./lib/formup.js",
+  "description": "Creating a form by a model",
+  "dependencies": {
+    "validate": "2.1.2",
+    "databind": "Vslava/databind",
+    "express": "3.x.x"
+  },
+  "devDependencies": {
+    "browserify": "2.22.0",
+    "uglify-js": "2.3.6"
+  }
+}
