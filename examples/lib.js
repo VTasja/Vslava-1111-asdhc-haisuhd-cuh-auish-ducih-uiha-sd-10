@@ -3,17 +3,20 @@
 var model = {
     first: 111,
     second: 222,
-    third: 'The first'
+    third: 'The first',
+    fourth: 'The second',
+    fifth: 'The third'
 };
 
 var schema = {
-    first: {},
-    second: { label: 'SECOND' },
-    third: {}
+    first: { order: 2 },
+    second: { order: 1, label: 'SECOND' },
+    third: { order: 3 },
+    fifth: { label: 'FIFTH' }
 };
 
 var form = FormUP.create(model, schema, {
-    label: 2, field: 10, show: true
+    label: 2, field: 10
 });
 
 var frm = document.getElementById('frm');
