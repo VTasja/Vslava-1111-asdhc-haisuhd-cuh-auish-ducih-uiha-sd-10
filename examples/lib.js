@@ -13,7 +13,7 @@ var schema = {
 };
 
 var form = FormUP.create(model, schema, {
-    label: 2, field: 10
+    label: 2, field: 10, show: true
 });
 
 var frm = document.getElementById('frm');
