@@ -16,8 +16,8 @@ function buildSimple (source) {
 }
 
 function build (source) {
-    //buildCompress(source);
-    buildSimple(source);
+    buildCompress(source);
+    //buildSimple(source);
 }
 
 bundle.add('./lib/formup.js');
